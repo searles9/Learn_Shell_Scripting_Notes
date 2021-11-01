@@ -9,7 +9,7 @@
 
 ### Simple shell script example
 ```
-# !/bin/bash
+#!/bin/bash
 echo "Scripting is fun!"
 ```
 * make it executable: ```chmod 755 script.sh```
@@ -24,10 +24,10 @@ echo "Scripting is fun!"
 * you specify the interpreter by adding something after the shebang
 ```
 # ex:
-#! /bin/bash
+#!/bin/bash
 
 # ex2:
-#! /bin/csh
+#!/bin/csh
 ```
 * if a script does not contain a shebang the commands are executed using your shell
 
