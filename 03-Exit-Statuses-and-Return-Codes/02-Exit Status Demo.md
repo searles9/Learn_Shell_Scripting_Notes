@@ -1,4 +1,0 @@
-***
-# Exit Status Demo
-***
-#

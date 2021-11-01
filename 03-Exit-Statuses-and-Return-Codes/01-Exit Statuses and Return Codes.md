@@ -10,6 +10,10 @@
 * anything other than 0 is an error or warning
 * these codes can be used for error checking
 * you can use ```man``` or ```info``` to find the meaning of an exit status
+* ex:
+```
+man ping
+```
 * ex: ```grep``` will return 1 if no search pattern is found
 * ```$?``` contains the return code of the previously executed command
 ```
