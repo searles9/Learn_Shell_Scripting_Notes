@@ -34,7 +34,7 @@ echo "Scripting is fun!"
 ### Running python scripts with a shell script...
 * you can even run python scripts python scripts with shell scripting
 ```
-#! /usr/bin/python
+#!/usr/bin/python
 print "This is a Python script."
 ```
 * add permissions to run it: ```chmod 755 hi.py```
@@ -52,7 +52,7 @@ VARIABLE_NAME="value"
 * "-" and "@" are not valid characters for variable names
 * examples: 
 ```
-#! /bin/bash
+#!/bin/bash
 MY_SHELL="bash"
 echo "I like the $MY_SHELL shell."
 echo"I like the ${MY_SHELL} shell."  <--- helpful if u wanna add letters right after it
